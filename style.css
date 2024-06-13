@@ -1,74 +1,81 @@
-/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 body {
-background-color: #eae2b7;
-  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
+    background-color: #eae2b7;
+    font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    margin: 0;
 }
 
-/* Set the font family for any h1, h2, or h3 heading */
-a:link {
-color: #d62828;
-
+/* Header section */
+header {
+    text-align: center;
+    padding: 20px 0;
 }
-a:hover{
-color: #f77f00;
+
+.header-bar h1 {
+    margin: 0;
+    font-size: 2em;
 }
-h1,
-h2,
-h3 
-{font-family: "Playfair Display", Times, serif;
-  text-align: center;
-width: 100%;}
 
-
-header
-{
-
-text-align: center;
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #d62828;
+    font-size: 1.2em;
 }
+
+nav a:hover {
+    color: #f77f00;
+}
+
+/* Article section */
 article {
-  text-align: center;
-  width: 100%;
-  padding: 50px 0;
+    text-align: center;
+    padding: 50px 0;
 }
 
-article div {
-  text-align: center;
-  width: 100%;
+.container {
+    width: 600px;
+    margin: 0 auto;
 }
 
-p {
-  line-height: 1.5;
+.image-circle {
+    border-radius: 50%;
+    border: 2px solid #003049;
+    max-width: 200px;
+    width: 50%;
+    height: auto;
 }
 
-/* The div container constrains the content width within the main container to 600px */
-div {
-  margin: auto;
-  width: 600px;
+h1, h2, h3 {
+    font-family: "Playfair Display", Times, serif;
+    text-align: center;
+    width: 100%;
 }
 
-img
-{ display:block; margin:  auto; 
+p, ul {
+    line-height: 1.5;
+    text-align: left;
+}
 
-max-width: 200px;
-  width: 50%;
-  height: auto;
+.items {
+    margin: 20px 0;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 hr {
-  border: 1px solid black
+    border: 1px solid black;
 }
 
-footer{
-  text-align: center;
-  width: 100%;
-}
-
-/* Add your solution below */
-
-.image-circle
-{ border-radius: 50%;
- border: 2px solid #003049;
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
 }
