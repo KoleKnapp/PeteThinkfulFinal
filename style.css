@@ -62,6 +62,7 @@ p, ul {
 .items {
     margin: 20px 0;
     text-align: center;
+    width: 100%;
 }
 
 .items img {
@@ -77,12 +78,10 @@ hr {
 
 /* Portfolio section */
 .portfolio .items {
-    display: inline-block;
-    width: 30%;
-    margin: 1.66%;
+    display: block;
+    margin: 20px auto;
     box-sizing: border-box;
     text-align: center;
-    vertical-align: top;
 }
 
 .portfolio .items img {
