@@ -115,11 +115,14 @@ hr {
 }
 
 #contact .container ol {
-    padding-left: 20px; /* Ensure the list is indented */
+    padding-left: 20px; /* Indent the list */
+    margin: 0; /* Reset any default margins */
 }
 
 #contact .container ol li {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Space between list items */
+    line-height: 1.6; /* Increase line height for readability */
+    font-size: 1em; /* Ensure consistent font size */
 }
 
 #contact .container ol li a {
@@ -136,3 +139,4 @@ footer {
     width: 100%;
     padding: 20px 0;
 }
+
