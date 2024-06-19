@@ -111,9 +111,6 @@ hr {
     max-width: 600px;
 }
 
-#contact ol {
-    padding-left: 20px; /* Ensure the list is indented */
-}
 
 #contact ol li {
     margin-bottom: 10px;
