@@ -116,13 +116,10 @@ hr {
 
 #contact .container ol {
     padding-left: 20px; /* Indent the list */
-    margin: 0; /* Reset any default margins */
 }
 
 #contact .container ol li {
     margin-bottom: 10px; /* Space between list items */
-    line-height: 1.6; /* Increase line height for readability */
-    font-size: 1em; /* Ensure consistent font size */
 }
 
 #contact .container ol li a {
@@ -138,11 +135,7 @@ footer {
     text-align: center;
     width: 100%;
     padding: 20px 0;
-    background-color: #003049; /* Add a background color for better visibility */
-    color: white; /* Ensure text is visible against the background */
-    position: fixed; /* Fix the footer at the bottom */
-    bottom: 0; /* Align it at the bottom */
-    left: 0;
 }
+
 
 
