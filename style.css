@@ -61,14 +61,53 @@ p, ul {
 
 .items {
     margin: 20px 0;
+    text-align: center;
 }
 
-img {
+.items img {
     display: block;
     margin: auto;
     max-width: 100%;
     height: auto;
 }
+
+hr {
+    border: 1px solid black;
+}
+
+/* Portfolio section */
+.portfolio .items {
+    display: inline-block;
+    width: 30%;
+    margin: 1.66%;
+    box-sizing: border-box;
+}
+
+.portfolio .items img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio .items h3 {
+    font-size: 1.5em;
+}
+
+.portfolio .items p {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Contact section */
+#contact .container {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
 
 hr {
     border: 1px solid black;
