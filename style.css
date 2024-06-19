@@ -68,7 +68,8 @@ p, ul {
 .items img {
     display: block;
     margin: auto;
-    max-width: 100%;
+    max-width: 300px; /* Reduce the max-width to make the images smaller */
+    width: 100%;
     height: auto;
 }
 
@@ -99,8 +100,15 @@ hr {
 }
 
 /* Contact section */
-#contact .container {
+#contact h2 {
     text-align: center;
+}
+
+#contact .container p, 
+#contact .container ol {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 footer {
@@ -108,4 +116,3 @@ footer {
     width: 100%;
     padding: 20px 0;
 }
-
