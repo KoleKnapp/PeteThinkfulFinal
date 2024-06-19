@@ -104,24 +104,30 @@ hr {
     text-align: center;
 }
 
-#contact .container p, 
-#contact .container ol {
-    text-align: left;
-    margin: 0 auto;
+#contact .container {
     max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
 }
 
+#contact .container p {
+    text-align: left;
+}
 
-#contact ol li {
+#contact .container ol {
+    padding-left: 20px; /* Ensure the list is indented */
+}
+
+#contact .container ol li {
     margin-bottom: 10px;
 }
 
-#contact ol a {
+#contact .container ol li a {
     text-decoration: none;
     color: #d62828;
 }
 
-#contact ol a:hover {
+#contact .container ol li a:hover {
     color: #f77f00;
 }
 
@@ -130,3 +136,4 @@ footer {
     width: 100%;
     padding: 20px 0;
 }
+
