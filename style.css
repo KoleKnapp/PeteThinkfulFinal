@@ -138,5 +138,11 @@ footer {
     text-align: center;
     width: 100%;
     padding: 20px 0;
+    background-color: #003049; /* Add a background color for better visibility */
+    color: white; /* Ensure text is visible against the background */
+    position: fixed; /* Fix the footer at the bottom */
+    bottom: 0; /* Align it at the bottom */
+    left: 0;
 }
+
 
