@@ -81,6 +81,8 @@ hr {
     width: 30%;
     margin: 1.66%;
     box-sizing: border-box;
+    text-align: center;
+    vertical-align: top;
 }
 
 .portfolio .items img {
@@ -100,17 +102,6 @@ hr {
 /* Contact section */
 #contact .container {
     text-align: center;
-}
-
-footer {
-    text-align: center;
-    width: 100%;
-    padding: 20px 0;
-}
-
-
-hr {
-    border: 1px solid black;
 }
 
 footer {
